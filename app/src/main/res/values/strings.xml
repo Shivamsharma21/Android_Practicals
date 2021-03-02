@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Android Practicals</string>
+    
+    <string-array name="Courses">
+        <item> "BBA"</item>
+        <item>
+           "LLB"
+        </item>
+            "B.tech"
+        <item>
+            "B.com"
+        </item>
+            "M.tech"
+        <item>
+            "BCA"
+        </item>
+            "Medical"
+        <item>
+            "BHM"
+        </item>
+
+    </string-array>
 </resources>

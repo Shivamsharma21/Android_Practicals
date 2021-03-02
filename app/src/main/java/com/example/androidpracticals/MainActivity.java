@@ -9,7 +9,8 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button Linearlayoutbtn,Relativelayoutbtn,_SeeToast,Switch,calenderexample;
+    Button Linearlayoutbtn,Relativelayoutbtn,_SeeToast,
+            Switch,calenderexample,spinnerExample;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,6 +62,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        spinnerExample.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,SpinnerExample.class);
+                startActivity(intent);
+            }
+        });
+
+
+
     }
 
 public void Initiliaze(){
@@ -70,6 +81,7 @@ public void Initiliaze(){
     _SeeToast = findViewById(R.id.button3);
     Switch = findViewById(R.id.button4);
     calenderexample = findViewById(R.id.button5);
+    spinnerExample = findViewById(R.id.button6);
 
 }
 
