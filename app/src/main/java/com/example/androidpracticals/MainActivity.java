@@ -9,17 +9,14 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button Linearlayoutbtn,Relativelayoutbtn,_SeeToast,Switch;
+    Button Linearlayoutbtn,Relativelayoutbtn,_SeeToast,Switch,calenderexample;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-      Linearlayoutbtn = findViewById(R.id.button);
-      Relativelayoutbtn = findViewById(R.id.button2);
-      _SeeToast = findViewById(R.id.button3);
-      Switch = findViewById(R.id.button4);
+        Initiliaze();
 
       Linearlayoutbtn.setOnClickListener(new View.OnClickListener() {
           @Override
@@ -55,5 +52,27 @@ public class MainActivity extends AppCompatActivity {
         }
     });
 
+        calenderexample.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,CalenderActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
     }
+
+public void Initiliaze(){
+
+    Linearlayoutbtn = findViewById(R.id.button);
+    Relativelayoutbtn = findViewById(R.id.button2);
+    _SeeToast = findViewById(R.id.button3);
+    Switch = findViewById(R.id.button4);
+    calenderexample = findViewById(R.id.button5);
+
+}
+
+
+
 }

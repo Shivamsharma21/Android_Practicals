@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidPracticals">
-        <activity android:name=".SwitchExample"></activity>
+        <activity android:name=".CalenderActivity"></activity>
+        <activity android:name=".SwitchExample" />
         <activity android:name=".SimpleAcitivity" />
         <activity android:name=".RelativeLayoutExample" />
         <activity android:name=".LayoutExample" />
