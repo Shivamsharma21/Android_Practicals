@@ -70,10 +70,53 @@
         android:layout_marginTop="20dp"
         android:padding="10dp"
         android:text="This Is a TextView"
-        android:textColor="#673AB7">
+        android:textColor="#FFFFFF">
 
     </TextView>
 
+
+    <LinearLayout
+        android:id="@+id/linearHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/cardview_dark_background">
+
+        <TextView
+            android:id="@+id/textview6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:text="This Is a TextView"
+            android:textColor="#9C27B0">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textview7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:text="This Is a TextView"
+            android:textColor="#FF5722">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textview8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="This Is a TextView"
+            android:textColor="#FFEB3B">
+
+        </TextView>
+
+    </LinearLayout>
 
 
 </LinearLayout>
